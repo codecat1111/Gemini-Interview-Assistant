@@ -217,9 +217,9 @@ class SystemAudioRecorder:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## ⭐ Found It Helpful? [Star It!](https://github.com/codecat1111/local-ai-assistant/stargazers)
+## ⭐ Found It Helpful? [Star It!](https://github.com/codecat1111/Gemini-Interview-Assistant/stargazers)
 
-If you found this project helpful, let the community know by giving it a [star](https://github.com/codecat1111/local-ai-assistant/stargazers): [👉⭐](https://github.com/codecat1111/local-ai-assistant/stargazers)
+If you found this project helpful, let the community know by giving it a [star](https://github.com/codecat1111/Gemini-Interview-Assistant/stargazers): [👉⭐](https://github.com/codecat1111/Gemini-Interview-Assistant/stargazers)
 
 
 ## License
