@@ -221,8 +221,3 @@ class SystemAudioRecorder:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
-
-Your Name - [@codecat1111](https://github.com/codecat1111)
-
-Project Link: [https://github.com/codecat1111/Gemini-Interview-Assistant](https://github.com/codecat1111/Gemini-Interview-Assistant)
