@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gemini Powered Mock Interview Assistant</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  <body>
+    <div class="main-layout">
+      <div class="sidebar">
+        <h1>Gemini Powered Mock Interview Assistant</h1>
+        <div class="mode-selector">
+          <input type="radio" id="aiOnly" name="mode" value="aiOnly" checked />
+          <label for="aiOnly">AI Analysis Only</label>
+          <input type="radio" id="compare" name="mode" value="compare" />
+          <label for="compare">Compare with My Answer</label>
+        </div>
+
+        <h3 class="section-title">Role:</h3>
+        <input
+          type="text"
+          id="roleInput"
+          class="role-input"
+          placeholder="Enter the role"
+        />
+
+        <h3 class="section-title">Job Description:</h3>
+        <textarea
+          id="jobDescription"
+          class="input-field"
+          placeholder="Paste the job description here"
+        ></textarea>
+
+        <div class="instructions">
+          <h3>Quick Guide:</h3>
+          <ol>
+            <li>Set audio output to "CABLE Input"</li>
+            <li>Play website audio</li>
+            <li>Click Record & Stop when done</li>
+          </ol>
+        </div>
+        <!-- Add this after the instructions div in the sidebar -->
+        <div class="session-controls">
+          <button id="resetSessionBtn" class="sidebar-button">
+            Reset Session
+          </button>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="top-controls">
+          <div class="recording-controls">
+            <button id="recordButton" title="Start new recording without saving history">Start Recording (No History)</button>
+            <button id="newRecordingBtn" class="top-button" title="Save history and start new recording">New Recording (With History)</button>
+            <div class="controls-info">
+              <small>• "Start Recording" - Fresh start without saving history</small>
+              <small>• "New Recording" - Saves current analysis to history before starting</small>
+            </div>
+          </div>
+          <div id="status">Ready to record</div>
+          <div class="theme-toggle">
+            <input type="checkbox" id="darkModeToggle" class="theme-input">
+            <label for="darkModeToggle" class="theme-label">
+              <span class="theme-icon">🌙</span>
+              <span class="theme-icon">☀️</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="scrollable-content">
+          <h3 class="section-title">Transcription:</h3>
+          <div id="transcription"></div>
+
+          <div class="analysis-container">
+            <div
+              class="analysis-column"
+              id="userAnswerSection"
+              style="display: none"
+            >
+              <h3 class="section-title">Your Answer:</h3>
+              <textarea
+                id="userAnswer"
+                class="input-field auto-expand"
+                placeholder="Type your answer here..."
+              ></textarea>
+              <button id="compareButton" class="compare-button">
+                Show AI Analysis
+              </button>
+              <div
+                id="processingStatus"
+                style="color: #666; margin-top: 10px"
+              ></div>
+            </div>
+
+            <div class="analysis-column">
+              <h3 class="section-title">AI Analysis:</h3>
+              <div id="geminiAnalysis"></div>
+            </div>
+          </div>
+          <div
+            id="processingStatus"
+            style="color: #666; margin-top: 10px"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <!-- Update the script section -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>

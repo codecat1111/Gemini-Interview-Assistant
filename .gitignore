@@ -1,0 +1,27 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Audio files
+*.wav
+static/recording_*
+
+# History file
+history.txt
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
