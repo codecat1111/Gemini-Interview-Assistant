@@ -114,7 +114,7 @@ processor = AutoProcessor.from_pretrained("openai/whisper-tiny")
 model = AutoModelForSpeechSeq2Seq.from_pretrained("openai/whisper-tiny")
 ```
 
-## Virtual Audio Cable Setup and Live Transcription
+## Virtual Audio Cable Setup
 
 ### 1. Setting Up VB-Audio Virtual Cable
 
