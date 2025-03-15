@@ -217,7 +217,15 @@ class SystemAudioRecorder:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## ⭐ Found It Helpful? [Star It!](https://github.com/codecat1111/local-ai-assistant/stargazers)
+
+If you found this project helpful, let the community know by giving it a [star](https://github.com/codecat1111/local-ai-assistant/stargazers): [👉⭐](https://github.com/codecat1111/local-ai-assistant/stargazers)
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+---
+
+For inquiries, feature requests, or to report issues, please utilize the GitHub issue tracking system or contribute via pull requests. 💬📢📩
