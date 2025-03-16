@@ -115,7 +115,10 @@ python main.py
 
 ## Project Demo
 
-https://github.com/codecat1111/Gemini-Interview-Assistant/assets/videos/project-demo.mp4
+<video width="600" controls>
+  <source src="assets/videos/project-demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 This video demonstrates:
 
@@ -240,7 +243,10 @@ class SystemAudioRecorder:
 
 ## Virtual Audio Cable Setup Demo
 
-https://github.com/codecat1111/Gemini-Interview-Assistant/assets/videos/vb-cable-setup.mp4
+<video width="600" controls>
+  <source src="assets/videos/vb-cable-setup.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 This video covers:
 
