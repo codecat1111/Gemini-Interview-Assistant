@@ -115,10 +115,8 @@ python main.py
 
 ## Project Demo
 
-<video width="600" controls>
-  <source src="assets/videos/project-demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[📽️ Watch the Demo on YouTube](https://www.youtube.com/watch?v=gU2my0yqVQY)
+
 
 This video demonstrates:
 
@@ -243,10 +241,8 @@ class SystemAudioRecorder:
 
 ## Virtual Audio Cable Setup Demo
 
-<video width="600" controls>
-  <source src="assets/videos/vb-cable-setup.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[📽️ Watch the Audio Cable Setup on YouTube](https://www.youtube.com/watch?v=7wr8EVFtABM)
+
 
 This video covers:
 
