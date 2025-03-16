@@ -2,6 +2,7 @@
 
 A web-based tool that helps users prepare and practice for technical interviews using AI-powered feedback. 🎯💡
 
+![Gemini-Interview-Assistant](assets/images/Gemini_Interview_Assistant.png)
 ---
 
 ## 🌟 Features
